@@ -1,0 +1,20 @@
+{
+  "name": "Web Spider Driver",
+  "short_name": "WS Driver",
+  "description": "Application livreur Web Spider - Gérez vos livraisons en temps réel",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/truck.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "lang": "fr-FR"
+}

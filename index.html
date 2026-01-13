@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/truck.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- PWA Meta Tags -->
+    <title>RestauConnect Driver - Livraisons</title>
+    <meta name="description" content="Application de livraison professionnelle pour les livreurs RestauConnect. GPS tracking, preuves de livraison, notifications en temps réel." />
+    <meta name="theme-color" content="#3b82f6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="RC Driver" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-192x192.png" />
+
+    <!-- Leaflet CSS chargé via npm dans MapScreen.tsx -->
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://driver.restauconnect.app/" />
+    <meta property="og:title" content="RestauConnect Driver" />
+    <meta property="og:description" content="Application de livraison professionnelle" />
+    <meta property="og:image" content="/icons/icon-512x512.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://driver.restauconnect.app/" />
+    <meta property="twitter:title" content="RestauConnect Driver" />
+    <meta property="twitter:description" content="Application de livraison professionnelle" />
+    <meta property="twitter:image" content="/icons/icon-512x512.png" />
+
+    <!-- Preconnect to API -->
+    <link rel="preconnect" href="http://localhost:5000" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
